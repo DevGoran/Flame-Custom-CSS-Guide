@@ -1,0 +1,90 @@
+/* Width of container (containg all elements). */
+.Layout_Container__2Hv3J {
+    padding-right: 190px !important;
+    padding-left: 190px !important;
+}
+
+/* Application tiles. */
+.AppCard_AppCard__1V2_0 {
+    padding: 30px !important;
+    margin-bottom: 5px !important;
+    border-radius: 0.7rem !important;
+}
+
+/* Application tile hover formatting. */
+.AppCard_AppCard__1V2_0:hover {
+    color: #b750fe !important;
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+}
+
+/* Application subtitles formatting. */
+.AppCard_AppCardDetails__tbAhY span {
+  color: #88898b87 !important;
+  font-size: .8em !important;
+}
+
+/* Application titles formatting. */
+.AppCard_AppCard__1V2_0 h3{
+    color: #0a81ff !important;
+    margin-bottom: 20px !important;
+    font-size: 17px !important;
+}
+
+/* Hover Selector with rounded corners. */
+.AppCard_Apps__3ud43 a {
+    border-radius: 0.7rem !important;
+    margin-bottom: 12px !important;
+}
+
+/* Bookmark tiles. */
+.BookmarkCard_BookmarkCard__1GmHc {
+    padding: 15px !important;
+    margin-bottom: 0 !important;
+    border-radius: 0.7rem !important;
+}
+
+/* Bookmark titles formatting. */
+.BookmarkCard_BookmarkCard__1GmHc h3 {
+    color: #575757 !important;
+    margin-bottom: 16px !important;
+    font-size: 17px !important;
+}
+
+/* Bookmark tile hover color and font size. */
+.BookmarkCard_BookmarkCard__1GmHc:hover {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    color: #b750fe !important;
+    margin-bottom: 20px !important;
+    font-size: 17px !important;
+}
+
+/* Background image with blur. */
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+body:before {
+    content: "";
+    position: fixed;
+    overflow: hidden;
+    background-image: url("https://live.staticflickr.com/65535/52555567663_cbe8d33313_b.jpg");
+    background-size: cover;
+    z-index: -999;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.1);
+    filter: blur(0.4rem);
+    opacity: 0.5;
+}
+
+/* Settings button: background color and border radius. */
+.Home_SettingsButton__Qvn8C {
+    border-radius: 0.5rem !important;
+    background-color: #FFFFFF !important;
+}
