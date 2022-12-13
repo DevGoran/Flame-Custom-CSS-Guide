@@ -1,3 +1,5 @@
+<h1>Introduction</h1>
+
 Dashboard repository: https://github.com/fdarveau/flame
 
 About Flame: Flame is self-hosted startpage for your server. Easily manage your apps and bookmarks with built-in editors. 
@@ -8,12 +10,15 @@ Although there is a guide from the creator (https://github.com/pawelmalak/flame/
 ![image](https://user-images.githubusercontent.com/82758334/207418456-252d3c0f-95f2-45fc-b9d8-6cbce63490fe.png)
 <p>&nbsp;</p>
 
-I suggest opening three tabs or windows for this:
-- First tab: open the dashboard 3 times (IP:PORT or FQDN); then on one go to Settings/ CSS. Here we will save the style adjustments.
-- Second tab: open developer tools by pressing F12. With this we will find out how the elemnts are called, whcih we'd like to change.
-- Third tab: this will be your review page, where you will review the changes.
+I suggest opening the dashboard three times:
+- First tab: open the dashboard and then go to Settings/ CSS. Here we will save the styling.
+- Second tab: open developer tools by pressing F12. With this we will find out how the classes/ elemnts are called, which we'd like to change.
+- Third tab: this will be your review page, where you will review the changes made after saving them in the settings.
 
 With this in mind, let's start!
+
+<p>&nbsp;</p>
+<h1>Find the class with Developer Tools</h1>
 
 Open the page with the developer tools and go to the "Inspector" tab. Here you see all the classes you will be able to edit, however, you will first have to find them, which is not too hard.
 
@@ -31,6 +36,8 @@ With this in mind, let's find out on how to manually edit the Application headli
 ![image](https://user-images.githubusercontent.com/82758334/207412462-e103e90d-a0a3-4d16-8b61-2edb2c6592f4.png)
  
 <p>&nbsp;</p>
+
+<h1>Edit the Look</h1>
 Now, that we found the correct class, we can edit many things. For this, you will find the actual styling just right of the HTML section:
 
 ![Screenshot 2022-12-13 191551](https://user-images.githubusercontent.com/82758334/207413220-b1de074c-2cc4-4df0-bc51-a60aa5bb01ef.png)
@@ -55,4 +62,6 @@ Now click on save and refresh your dashboard!
 
 And there you go, you made your first change to your own personal dashboard!
 
-PS: If you changes don't appear, make sure to empty your cache: https://github.com/pawelmalak/flame/wiki/Custom-CSS
+<p>&nbsp;</p>
+<h1>Caching</h1>
+If you changes don't appear, make sure to empty your cache: https://github.com/pawelmalak/flame/wiki/Custom-CSS
