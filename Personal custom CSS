@@ -1,9 +1,3 @@
-/* Width of container (containg all elements). */
-.Layout_Container__2Hv3J {
-    padding-right: 190px !important;
-    padding-left: 190px !important;
-}
-
 /* Application tiles. */
 .AppCard_AppCard__1V2_0 {
     padding: 30px !important;
