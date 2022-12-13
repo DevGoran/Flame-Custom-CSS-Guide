@@ -5,7 +5,7 @@ About Flame: Flame is self-hosted startpage for your server. Easily manage your 
 This is a guide on how to create your own custom CSS for Flame. 
 Although there is a guide from the creator (https://github.com/pawelmalak/flame/wiki/Custom-CSS), it does not go into depth very much.
 
-![image](https://user-images.githubusercontent.com/82758334/207410982-edc641d5-bb83-47dd-aa05-611c1d96c69c.png)
+![image](https://user-images.githubusercontent.com/82758334/207418456-252d3c0f-95f2-45fc-b9d8-6cbce63490fe.png)
 <p>&nbsp;</p>
 
 I suggest opening three tabs or windows for this:
