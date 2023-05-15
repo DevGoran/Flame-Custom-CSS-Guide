@@ -1,51 +1,60 @@
-/* Application tiles. */
+/* Wide Application tiles */
 .AppCard_AppCard__1V2_0 {
     padding: 30px !important;
     margin-bottom: 5px !important;
     border-radius: 0.7rem !important;
 }
 
-/* Application tile hover formatting. */
+/* 6 columns in App row */
+.AppGrid_AppGrid__33iLW {
+  grid-template-columns: repeat(6,1fr) !important;
+}
+
+/* 5 columns in Bookmark row */
+.BookmarkGrid_BookmarkGrid__26LlR {
+  grid-template-columns: repeat(5,1fr) !important;
+}
+
+/* Application tile hover color */
 .AppCard_AppCard__1V2_0:hover {
     color: #b750fe !important;
     margin-bottom: 20px !important;
     font-size: 16px !important;
 }
 
-/* Application subtitles formatting. */
+/* App Subtitle */
 .AppCard_AppCardDetails__tbAhY span {
   color: #88898b87 !important;
   font-size: .8em !important;
 }
 
-/* Application titles formatting. */
+/* Application titles */
 .AppCard_AppCard__1V2_0 h3{
     color: #0a81ff !important;
     margin-bottom: 20px !important;
     font-size: 17px !important;
 }
 
-/* Hover Selector with rounded corners. */
 .AppCard_Apps__3ud43 a {
     border-radius: 0.7rem !important;
     margin-bottom: 12px !important;
 }
 
-/* Bookmark tiles. */
+/* Wide Bookmark tiles */
 .BookmarkCard_BookmarkCard__1GmHc {
     padding: 15px !important;
     margin-bottom: 0 !important;
     border-radius: 0.7rem !important;
 }
 
-/* Bookmark titles formatting. */
+/* Bookmark titles */
 .BookmarkCard_BookmarkCard__1GmHc h3 {
     color: #575757 !important;
     margin-bottom: 16px !important;
     font-size: 17px !important;
 }
 
-/* Bookmark tile hover color and font size. */
+/* Bookmark tile hover */
 .BookmarkCard_BookmarkCard__1GmHc:hover {
     background-color: rgba(0, 0, 0, 0.3) !important;
     color: #b750fe !important;
@@ -53,7 +62,7 @@
     font-size: 17px !important;
 }
 
-/* Background image with blur. */
+/* Background image */
 body {
     position: absolute;
     top: 0;
@@ -73,12 +82,24 @@ body:before {
     height: 100%;
     width: 100%;
     transform: scale(1.1);
+
+    /* Change the following only: */
     filter: blur(0.4rem);
     opacity: 0.5;
 }
 
-/* Settings button: background color and border radius. */
+/* Settings button */
 .Home_SettingsButton__Qvn8C {
     border-radius: 0.5rem !important;
     background-color: #FFFFFF !important;
+}
+
+
+/* Adjust Body width */
+.Layout_Container__2Hv3J {
+  padding-right: 100px !important;
+  padding-left: 100px !important;
+}
+.Layout_Container__2Hv3J {
+  width: 100% !important;
 }
